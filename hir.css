@@ -1,6 +1,17 @@
+#fokeret{
+    margin: 0px 15px
+}
+.nav-item, .navbar-btn{
+    text-align: center;
+    height: 50px;
+}
 #navbar{
-    width: 100%;
-    position: fixed;
-    background-color: white;
-    border-bottom: 1px rgb(194, 194, 194);
+    vertical-align: middle;
+}
+#navbar img{
+    width: 50px;
+    padding: 2px
+}
+#navbar li{
+    list-style: none;
 }

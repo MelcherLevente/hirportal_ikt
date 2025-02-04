@@ -1,17 +1,29 @@
 #fokeret{
-    margin: 0px 15px
+    padding: 0px 15px;
 }
 .nav-item, .navbar-btn{
     text-align: center;
-    height: 50px;
+    align-content: center;
 }
 #navbar{
-    vertical-align: middle;
+    border-bottom: 1px rgb(175, 175, 175) solid;
+    font-size: 20px;
+    height: 70px;
+    align-items: center;
+    font-weight: bold;
+    align-content: center;
 }
 #navbar img{
     width: 50px;
-    padding: 2px
+    padding: 2px;
 }
 #navbar li{
     list-style: none;
+}
+#also_navbar{
+    font-size: 16px;
+    border-bottom: black 1px solid;
+    height: 30px;
+    align-content: center;
+    font-weight: bold;
 }

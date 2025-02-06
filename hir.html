@@ -10,18 +10,33 @@
 </head>
 <body>
     <div id="fokeret">
-        <nav class="navbar-nav">
-            <div id="navbar" class="container-fluid">
-                <div class="row">
-                    <div class="navbar-btn col-1"><img src="img/nav/hamburger.png"></div>
-                    <div class="nav-item col-1"></div>
-                    <div class="nav-item col-2"></div>
-                    <div class="navbar-btn col-4"><img src="img/nav/home.png"></div>
-                    <div class="nav-item col-2 li"><li>Regisztráció</li></div>
-                    <div class="nav-item col-2 li"><li>Bejelentkezés</li></div>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </ul>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
         </nav>
+        
         <nav class="navbar-nav">
             <div id="also_navbar" class="container-fluid">
                 <div class="row">
@@ -36,11 +51,42 @@
                 </div>
             </div>
         </nav>
-        <div class="container-fluid">
-            <div class="col-3"></div>
-            <div class="col-6"></div>
-            <div class="col-3"></div>
+
+        <div class="container-fluid" id="tartalom">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt pariatur ipsam.</h1>
+            <div id="szerzo" class="float-left">
+                <p><span style="font-size: small;">5 órája</span><br>
+                <span style="font-weight: bold;">Kovács István</span><br>
+                <span  style="font-size: small;">Szerző</span></p>
+            </div>
+            <img src="img/tartalom/teszt_hir.jpg" class="img-fluid">
+            <p id="szoveg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fuga omnis in? Necessitatibus vero perferendis rerum, dignissimos, architecto odio doloribus inventore veniam earum culpa quae id ut. <br> Minima nam fugiat autem unde ad, error dolorem doloremque, impedit repellendus minus doloribus commodi. Earum alias autem nulla laboriosam vitae totam ipsam nostrum atque, pariatur ut deleniti maiores animi tempore velit praesentium sapiente. <br> Nulla amet accusantium sed porro quae harum ipsum asperiores qui, doloremque animi repudiandae tempore eos rerum laudantium ea pariatur incidunt! <br> Iure, quis voluptatem ut cupiditate voluptates iusto, odit fugiat magni consequatur illo adipisci earum pariatur fugit corrupti hic veritatis itaque officia? Dolores pariatur sed placeat nesciunt nulla odit ratione dolor veniam quas ipsa, alias porro inventore architecto qui earum distinctio.</p>
+        </div>
+        <hr>
+        <div class="container-fluid d-block" id="kapcs">
+            <div>
+            <h3 style="font-weight: bolder;">Kapcsolódó hírek</h3>
+            </div>
+            <div class="d-flex" id="hirek">
+                <div class="container-fluid font-weight-bold w-33">
+                    <h5>AAAAAAAAAAAAAA</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quis necessitatibus harum magni!</p>
+                </div>
+                <div class="container-fluid font-weight-bold w-33">
+                    <h5>BBBBBBBBBBBBBB</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nisi molestias eaque delectus.</p>
+                </div>
+                <div class="container-fluid font-weight-bold w-33">
+                    <h5>CCCCCCCCCCCCCC</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quisquam nulla voluptatem est!</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="" id="tobb">
+
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,18 +1,7 @@
 #fokeret{
-    padding: 0px 15px;
+    
 }
-.nav-item, .navbar-btn{
-    text-align: center;
-    align-content: center;
-}
-#navbar{
-    border-bottom: 1px rgb(175, 175, 175) solid;
-    font-size: 20px;
-    height: 70px;
-    align-items: center;
-    font-weight: bold;
-    align-content: center;
-}
+
 #navbar img{
     width: 50px;
     padding: 2px;
@@ -26,4 +15,34 @@
     height: 30px;
     align-content: center;
     font-weight: bold;
+}
+
+
+#tartalom{
+    width: 90%;
+    padding-top: 30px;
+}
+#tartalom h1{
+    font-size: 300%;
+}
+#tartalom p, #tartalom h1{
+    padding: 0px 50px;
+}
+#tartalom img{
+    padding-bottom: 30px;
+}
+#szoveg{
+    font-size: 120%;
+}
+#szerzo{
+    padding: 15px 0px;
+}
+
+
+#kapcs{
+    width: 90%;
+    padding: 12px 0px;
+}
+#hirek{
+    margin: 25px 0px;
 }

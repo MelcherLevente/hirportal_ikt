@@ -30,6 +30,8 @@
 }
 #tartalom img{
     padding-bottom: 30px;
+    width: 75%;
+    margin: auto;
 }
 #szoveg{
     font-size: 120%;
@@ -45,4 +47,21 @@
 }
 #hirek{
     margin: 25px 0px;
+}
+
+#tobb{
+    width: 90%;
+    padding: 12px 0px;
+}
+#tobb img{
+    width: 520px;
+}
+#tobb1{
+    height: max-content;
+}
+#tobb1_l{
+    align-content: center;
+}
+#tobb1_r img{
+    padding-right: 220px;
 }

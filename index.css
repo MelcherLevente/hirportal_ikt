@@ -1,3 +1,45 @@
+main{
+    font-family: serif;
+    font-size: 1.1rem;
+}
+nav{
+    border-bottom: 1px solid grey;
+}
+h1{
+    margin-top: 10PX;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+h4{
+    font-weight: bold;
+}
+.card{
+    --bs-card-border-width: 0px;
+    margin-bottom: 0px;
+    border-radius: 0;
+    --bs-card-inner-border-radius: 0;
+}
+.card-body{
+    
+    padding: var(--bs-card-spacer-y) 0rem;
+    padding-bottom: 0rem;
+    border-bottom: 1px solid gray;
+}
+.row{
+    --bs-gutter-x: 0.6rem;
+    --bs-gutter-y: 0.6rem;
+}
+.sep{
+    height: 0px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+section{
+    padding-bottom: 1.2rem;
+}
+.btn-dark, .btn-light{
+    border-radius: 0;
+}
 #a-nap-hire-kep{
 width: 100%;
 }

@@ -40,6 +40,9 @@ section{
 .btn-dark, .btn-light{
     border-radius: 0;
 }
+.navbar-toggler{
+    border: 0px solid gray;
+}
 #a-nap-hire-kep{
 width: 100%;
 }

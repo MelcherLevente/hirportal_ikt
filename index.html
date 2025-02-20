@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -72,47 +72,52 @@
         </nav>
     </header>
     <main>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasExampleLabel">HBC news</h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HBC news</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <nav class="bd-links w-100"></nav>
+                <nav class="bd-links"></nav>
+                <form class="d-flex" role="search">
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light text-center" type="submit"><img src="img/nav/search.png" alt="" id="img-height"></button>
+                  </form>
+            
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item  ">
+                            
+                            <button class="btn btn-secondary   off-item text-start" type="button">Home</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-secondary  off-item text-start" type="button">News</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-secondary  off-item text-start" type="button">Sport</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-secondary  off-item text-start" type="button">Business</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-secondary  off-item text-start" type="button">Innovation</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-secondary  off-item text-start" type="button">Culture</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-secondary   off-item text-start" type="button">Arts</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-secondary  off-item text-start" type="button">Travel</button>
+                        </li>
+                        <li class="nav-item"><button class="btn btn-secondary  off-item text-start" type="button">Earth</button>
 
-                    <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                            <button class="btn btn-secondary  off-item text-start" type="button">Video</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sport</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Business</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Innovation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Culture</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Arts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Travel</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Earth</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Video</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Live</a>
+                            <button class="btn btn-secondary  off-item text-start" type="button">Live</button>
                         </li>
 
                     </ul>

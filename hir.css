@@ -59,7 +59,7 @@ nav{
     width: 20px;
     color: white;
 }
-body{
+main{
     font-family: serif;
     font-size: 1.1rem;
 }
@@ -111,6 +111,26 @@ body{
 h1,h2,h3,h4,h5{
     word-wrap: break-word;
 }
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-    
+footer{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding-bottom: 10px;
+}
+#footer-link a:link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer-link a:visited{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer-link a:hover{
+    color:rgb(185, 185, 185);
+    text-decoration: none;
+    font-weight: bold;
+}
+.no-margin{
+    margin: 0px;
 }

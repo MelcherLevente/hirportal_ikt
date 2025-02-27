@@ -59,6 +59,10 @@ nav{
     width: 20px;
     color: white;
 }
+body{
+    font-family: serif;
+    font-size: 1.1rem;
+}
 
 
 #tartalom{
@@ -75,9 +79,6 @@ nav{
     padding-bottom: 30px;
     width: 85%;
     margin: auto;
-}
-#szoveg{
-    font-size: 120%;
 }
 #szerzo{
     padding: 15px 0px;

@@ -34,8 +34,28 @@ h4{
 section{
     padding-bottom: 1.2rem;
 }
-.p-nline{
-
+footer{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding-bottom: 10px;
+}
+#footer-link a:link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer-link a:visited{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer-link a:hover{
+    color:rgb(185, 185, 185);
+    text-decoration: none;
+    font-weight: bold;
+}
+.no-margin{
+    margin: 0px;
 }
 /* for navbar: */
 nav{

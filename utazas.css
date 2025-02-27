@@ -1,0 +1,111 @@
+main{
+    font-family: serif;
+    font-size: 1.1rem;
+}
+h1{
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+h4{
+    font-weight: bold;
+}
+section{
+    padding-bottom: 1.2rem;
+}
+.card{
+    --bs-card-border-width: 0px;
+    margin-bottom: 0px;
+    border-radius: 0;
+    --bs-card-inner-border-radius: 0;
+}
+.card-body{
+    
+    padding: var(--bs-card-spacer-y) 0rem;
+    padding-bottom: 0rem;
+    border-bottom: 1px solid gray;
+}
+
+.sep{
+    height: 0px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+#img-width{
+    width: 100%;
+}
+/* for navbar: */
+nav{
+    border-bottom: 1px solid grey;
+}
+.btn-dark, .btn-light{
+    border-radius: 0;
+}
+.navbar-toggler{
+    border: 0px solid gray;
+}
+.offcanvas{
+    max-width: 60%;
+}
+.offcanvas-body{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.btn-secondary{
+    --bs-btn-border-radius: 0;
+    --bs-btn-color: black;
+    --bs-btn-bg: white;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #d3d3d3d5;
+    border: 0px;
+}
+.off-item{
+    width: 100%;
+    height: 3rem;
+    font-size: 1.099rem;
+    border-bottom: 1px solid black;
+}
+.form-control{
+    border-radius: 0px;
+    
+}
+.search-padding{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#a-nap-hire-kep{
+width: 100%;
+}
+#img-height{
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#foother-text{
+    font-size: small;
+}
+/*footer*/
+footer{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding-bottom: 10px;
+}
+.no-margin{
+    margin: 0px;
+}
+#footer-link a:link {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer-link a:visited{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer-link a:hover{
+    color:rgb(185, 185, 185);
+    text-decoration: none;
+    font-weight: bold;
+}

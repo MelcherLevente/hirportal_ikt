@@ -67,8 +67,13 @@ nav{
     --bs-btn-bg: white;
     --bs-btn-hover-color: black;
     --bs-btn-hover-bg: #d3d3d3d5;
+    --bs-btn-disabled-bg: white ;
+    --bs-btn-disabled-border-color : black;
+    --bs-btn-active-bg:#cecece8a ;
+    --bs-btn-active-color: black;
     border: 0px;
 }
+
 .off-item{
     width: 100%;
     font-size: 1.099rem;

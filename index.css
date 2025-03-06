@@ -120,25 +120,35 @@ width: 100%;
     width: 20px;
     color: white;
 }
-.alhir a{
+.hirek a{
     overflow: hidden;
 }
-.alhir a:visited{
+.hirek a:visited{
     color: black;
     text-decoration: none;
 }
-.alhir a:link{
+.hirek a:link{
     color: black; 
     text-decoration: none;
 }
-.alhir a:hover{
+.hirek a:hover{
     text-decoration: underline;
 }
 
-.alhir img{
+.hirek img{
     transition: transform 0.4s;
 }
-.alhir img:hover{
+.hirek img:hover{
     transform: scale(1.15);
 
+}
+#main-pic{
+    overflow: hidden;
+
+}
+#main-pic img{
+    transition: transform 0.4s;
+}
+#main-pic img:hover{
+    transform: scale(1.15);
 }

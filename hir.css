@@ -147,3 +147,35 @@ footer{
 .no-margin{
     margin: 0px;
 }
+.hirek a{
+    overflow: hidden;
+}
+.hirek a:visited{
+    color: black;
+    text-decoration: none;
+}
+.hirek a:link{
+    color: black; 
+    text-decoration: none;
+}
+.hirek a:hover{
+    text-decoration: underline;
+}
+
+.hirek img{
+    transition: transform 0.4s;
+}
+.hirek img:hover{
+    transform: scale(1.15);
+
+}
+#main-pic{
+    overflow: hidden;
+
+}
+#main-pic img{
+    transition: transform 0.4s;
+}
+#main-pic img:hover{
+    transform: scale(1.15);
+}

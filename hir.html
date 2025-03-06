@@ -1,246 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hír</title>
     <link rel="stylesheet" href="hir.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="hir.css">
 </head>
+
 <body>
     <div id="fokeret">
-      <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                  
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sport</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Business</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Innovation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Culture</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Arts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="utazas.html">Travel</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Earth</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Video</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Live</a>
-                        </li>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    </ul>
+                        <ul class="navbar-nav ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Sport</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Business</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Innovation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Culture</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Arts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="utazas.html">Travel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Earth</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Live</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="nav-item">
+
+                        <form class="container-fluid justify-content-end">
+                            <button class="btn btn-dark me-2" type="button">Register</button>
+                            <button class="btn btn-light me-2" type="button">Sign in</button>
+                        </form>
+
+
+                    </div>
                 </div>
-                <div class="nav-item">
-
-                    <form class="container-fluid justify-content-end">
-                        <button class="btn btn-dark me-2" type="button">Register</button>
-                        <button class="btn btn-light me-2" type="button">Sign in</button>
+            </nav>
+        </header>
+        <main>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HBC news</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <nav class="bd-links"></nav>
+                    <form class="d-flex" role="search">
+                        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-light text-center" type="submit"><img src="img/nav/search.png"
+                                id="img-height"></button>
                     </form>
 
-
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HBC news</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <nav class="bd-links"></nav>
-                <form class="d-flex" role="search">
-                    <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-light text-center" type="submit"><img src="img/nav/search.png" id="img-height"></button>
-                  </form>
-            
                     <ul class="navbar-nav justify-content-end flex-grow-1">
-                        <li class="nav-item  ">
-                            
-                            <button class="btn btn-secondary   off-item text-start" type="button">Home</button>
+                        
+                        <li class="nav-item">
+                            <a href="index.html" class="btn btn-secondary   off-item text-start" type="button"> Home</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-secondary  off-item text-start" type="button">News</button>
+                            <a href="index.html" class="btn btn-secondary disabled  off-item text-start" type="button">Sport</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-secondary  off-item text-start" type="button">Sport</button>
+                            <a href="index.html" class="btn btn-secondary disabled  off-item text-start" type="button">
+                                Business</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-secondary  off-item text-start" type="button">Business</button>
+                            <a href="index.html" class="btn btn-secondary disabled  off-item text-start" type="button">
+                                Innovation</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-secondary  off-item text-start" type="button">Innovation</button>
+                            <a href="index.html" class="btn btn-secondary disabled  off-item text-start" type="button">
+                                Culture</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-secondary  off-item text-start" type="button">Culture</button>
+                            <a href="index.html" class="btn btn-secondary disabled  off-item text-start" type="button"> Arts</a>
                         </li>
-                        <li class="nav-item">
-                            <button class="btn btn-secondary   off-item text-start" type="button">Arts</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="btn btn-secondary  off-item text-start" type="button"><a href="utazas.html">Travel</a></button>
-                        </li>
-                        <li class="nav-item"><button class="btn btn-secondary  off-item text-start" type="button">Earth</button>
+                        <li class="nav-item"> <a href="utazas.html" class="btn btn-secondary   off-item text-start"
+                                type="button"> Travel</a>
+
 
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-secondary  off-item text-start" type="button">Video</button>
+                            <a href="index.html" class="btn btn-secondary disabled  off-item text-start" type="button">
+                                Earth</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-secondary  off-item text-start" type="button">Live</button>
+                            <a href="index.html" class="btn btn-secondary disabled  off-item text-start" type="button">
+                                Video</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="btn btn-secondary disabled  off-item text-start" type="button">
+                                Live</a>
+                        </li>
+
 
                     </ul>
                 </div>
-              </div>
             </div>
-          </div>
+    </div>
+    </div>
 
-        <div class="container-fluid" id="tartalom">
-            <h1>Microsoft unveils breakthrough chip, promising quantum computers in 'years not decades'</h1>
-            <div id="szerzo" class="float-left">
-                <p><span style="font-size: small;">14 hours ago</span><br>
+    <div class="container-fluid" id="tartalom">
+        <h1>Microsoft unveils breakthrough chip, promising quantum computers in 'years not decades'</h1>
+        <div id="szerzo" class="float-left">
+            <p><span style="font-size: small;">14 hours ago</span><br>
                 <span style="font-weight: bold;">Kovács István</span><br>
-                <span  style="font-size: small;">Writer</span></p>
-            </div>
-            <div class="container-fluid" id="fokep">
-                <img src="img/tartalom/fokep_hir.jpg" class="img-fluid">
-            </div>
-            <p>Microsoft has revealed a new quantum chip that could eventually lead to computers so powerful, they're capable of solving highly complex industrial and societal problems.</p>
-            <p>A groundbreaking new chip brings quantum computing within touching distance, according to its manufacturer Microsoft, potentially heralding a new era of tech-powered problem solving for some of the world's most pressing ills. </p> 
-            <p>At the heart of Microsoft's Majorana 1 chip is the world's first 'topoconductor', capable of creating a new state of matter which is not a solid, liquid or gas. </p>
-            <p>The company likens its breakthrough to the invention of semiconductors, which shrank massive computing power into tiny packages, making modern smartphones possible.</p>
-            <p>Microsoft believes topoconductors offer a path to building a chip with a million quantum bits, or qubits - the basic unit of information used in quantum computing - within years rather than decades. </p>
-            <p>That would create a super computer with more processing power than all the world's current computers working together. </p>
-            <p>“This is a needed threshold for quantum computers to deliver transformative, real-world solutions - such as breaking down microplastics into harmless byproducts or inventing self-healing materials for construction, manufacturing or healthcare,” Microsoft said in a statement.</p>
+                <span style="font-size: small;">Writer</span>
+            </p>
         </div>
+        <div class="container-fluid" id="fokep">
+            <img src="img/tartalom/fokep_hir.jpg" class="img-fluid">
+        </div>
+        <p>Microsoft has revealed a new quantum chip that could eventually lead to computers so powerful, they're
+            capable of solving highly complex industrial and societal problems.</p>
+        <p>A groundbreaking new chip brings quantum computing within touching distance, according to its manufacturer
+            Microsoft, potentially heralding a new era of tech-powered problem solving for some of the world's most
+            pressing ills. </p>
+        <p>At the heart of Microsoft's Majorana 1 chip is the world's first 'topoconductor', capable of creating a new
+            state of matter which is not a solid, liquid or gas. </p>
+        <p>The company likens its breakthrough to the invention of semiconductors, which shrank massive computing power
+            into tiny packages, making modern smartphones possible.</p>
+        <p>Microsoft believes topoconductors offer a path to building a chip with a million quantum bits, or qubits -
+            the basic unit of information used in quantum computing - within years rather than decades. </p>
+        <p>That would create a super computer with more processing power than all the world's current computers working
+            together. </p>
+        <p>“This is a needed threshold for quantum computers to deliver transformative, real-world solutions - such as
+            breaking down microplastics into harmless byproducts or inventing self-healing materials for construction,
+            manufacturing or healthcare,” Microsoft said in a statement.</p>
+    </div>
 
-        <hr>
+    <hr>
 
-        <div class="container-fluid d-block" id="kapcs">
-            <div>
+    <div class="container-fluid d-block" id="kapcs">
+        <div>
             <h3 style="font-weight: bolder;">Related</h3>
-            </div>
-            <div class="container-fluid d-lg-flex row" id="hirek">
-                <div class="container-fluid font-weight-bold col-lg-4 col-md-6 col-sm-12">
-                    <h4>Could AI help save the planet? Four ways it's already making a world of difference</h4>
-                    <p>Might AI yet prove a useful ally? We unpick how it's aiding conservation efforts when it comes to forests, food, on land and at sea</p>
-                </div>
-                <div class="container-fluid font-weight-bold col-lg-4 col-md-6 col-sm-12">
-                    <h4>First astronaut with a disability cleared for space station mission</h4>
-                    <p>John McFall has been approved to become the first person with a physical disability to take part in a mission to the International Space Station.
-                    </p>
-                </div>
-                <div class="container-fluid font-weight-bold col-lg-4 col-md-6 col-sm-12">
-                    <h4>'Shred your Christmas tree, not your gadgets' urges e-waste charity</h4>
-                    <p>A charity that tackles electronic waste is drawing attention to the possibilities offered by reuse and repair</p>
-                </div>
-            </div>
         </div>
-
-        <hr>
-
-        <div class="container-fluid" id="tobb">
-            <div>
-              <h3 style="font-weight: bolder;">More</h3>
+        <div class="container-fluid d-lg-flex row" id="hirek">
+            <div class="container-fluid font-weight-bold col-lg-4 col-md-6 col-sm-12">
+                <h4>Could AI help save the planet? Four ways it's already making a world of difference</h4>
+                <p>Might AI yet prove a useful ally? We unpick how it's aiding conservation efforts when it comes to
+                    forests, food, on land and at sea</p>
             </div>
-            <div class="row container-fluid d-lg-flex w-100" id="tobb1">
-              <div class="container-fluid col-lg-2 col-sm-12" id="ido">
-                <p>10 minutes ago</p>
-              </div>
-              <div class="container-fluid col-lg-6 col-sm-7 d-inline-block" id="tobb1_l">
-                <div class="w-80">
-                  <h4>Bringing picture books to life for blind and visually impaired children</h4>
-                </div>
-                <div class="w-80">
-                  <p>For over 30 years, Living Paintings has been helping blind and visually impaired people enjoy art through touch and sound.</p>
-                </div>
-              </div>
-              <div class="container-fluid col-lg-4 col-sm-5" id="tobb1_r">
-                  <img src="img/index/hir1.jpg" class="img-fluid">
-              </div>
+            <div class="container-fluid font-weight-bold col-lg-4 col-md-6 col-sm-12">
+                <h4>First astronaut with a disability cleared for space station mission</h4>
+                <p>John McFall has been approved to become the first person with a physical disability to take part in a
+                    mission to the International Space Station.
+                </p>
             </div>
-
-            <div class="row container-fluid d-lg-flex w-100" id="tobb1">
-              <div class="container-fluid col-lg-2 col-sm-12" id="ido">
-                <p>14 minutes ago</p>
-              </div>
-              <div class="container-fluid col-lg-6 col-sm-7 d-inline-block" id="tobb1_l">
-                <div class="w-80">
-                  <h4>Meet the ghost hunters: the volunteer divers cleaning up UK seas</h4>
-                </div>
-                <div class="w-80">
-                  <p>Discarded fishing nets pose a grave threat to marine life. Our writer joins the volunteers who are determined to retrieve this ‘ghost gear’</p>
-                </div>
-              </div>
-              <div class="container-fluid col-lg-4 col-sm-5" id="tobb1_r">
-                  <img src="img/index/hir2.jpg" class="img-fluid">
-              </div>
+            <div class="container-fluid font-weight-bold col-lg-4 col-md-6 col-sm-12">
+                <h4>'Shred your Christmas tree, not your gadgets' urges e-waste charity</h4>
+                <p>A charity that tackles electronic waste is drawing attention to the possibilities offered by reuse
+                    and repair</p>
             </div>
         </div>
     </div>
+
+    <hr>
+
+    <div class="container-fluid" id="tobb">
+        <div>
+            <h3 style="font-weight: bolder;">More</h3>
+        </div>
+        <div class="row container-fluid d-lg-flex w-100" id="tobb1">
+            <div class="container-fluid col-lg-2 col-sm-12" id="ido">
+                <p>10 minutes ago</p>
+            </div>
+            <div class="container-fluid col-lg-6 col-sm-7 d-inline-block" id="tobb1_l">
+                <div class="w-80">
+                    <h4>Bringing picture books to life for blind and visually impaired children</h4>
+                </div>
+                <div class="w-80">
+                    <p>For over 30 years, Living Paintings has been helping blind and visually impaired people enjoy art
+                        through touch and sound.</p>
+                </div>
+            </div>
+            <div class="container-fluid col-lg-4 col-sm-5" id="tobb1_r">
+                <img src="img/index/hir1.jpg" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row container-fluid d-lg-flex w-100" id="tobb1">
+            <div class="container-fluid col-lg-2 col-sm-12" id="ido">
+                <p>14 minutes ago</p>
+            </div>
+            <div class="container-fluid col-lg-6 col-sm-7 d-inline-block" id="tobb1_l">
+                <div class="w-80">
+                    <h4>Meet the ghost hunters: the volunteer divers cleaning up UK seas</h4>
+                </div>
+                <div class="w-80">
+                    <p>Discarded fishing nets pose a grave threat to marine life. Our writer joins the volunteers who
+                        are determined to retrieve this ‘ghost gear’</p>
+                </div>
+            </div>
+            <div class="container-fluid col-lg-4 col-sm-5" id="tobb1_r">
+                <img src="img/index/hir2.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    </div>
     </main>
     <footer class="container-fluid" id="footer-link">
-        <div class="row text-start" ><div class="col-12"></div><h5>Follow HBC on:</h5></div>
+        <div class="row text-start">
+            <div class="col-12"></div>
+            <h5>Follow HBC on:</h5>
+        </div>
         <div class="row text-center">
             <div class="col-12 col-sm-4 col-md-3"><a href="#" target="_blank"> Terms of Use
-            </a></div>
+                </a></div>
             <div class="col-12 col-sm-4 col-md-3"><a href="#" target="_blank"> About the BBC
-        </a></div>
+                </a></div>
             <div class="col-12 col-sm-4 col-md-3"><a href="#" target="_blank"> Privacy Policy
-            </a></div>
+                </a></div>
             <div class="col-12 col-sm-4 col-md-3"><a href="#" target="_blank"> Cookies
-            </a></div>
+                </a></div>
             <div class="col-12 col-sm-4 col-md-3"><a href="#" target="_blank"> Accessibility Help
-            </a></div>
+                </a></div>
             <div class="col-12 col-sm-4 col-md-3"><a href="#" target="_blank"> Contact the BBC
-            </a></div>
+                </a></div>
             <div class="col-12 col-sm-4 col-md-3"><a href="#        
                 " target="_blank">Advertise with us</a></div>
             <div class="col-12 col-sm-4 col-md-3"><a href="#" target="_blank"> Do not share or sell my info
-            </a></div>
+                </a></div>
             <div class="col-12"><a href="#" target="_blank"> Contact technical support
-            </a>
-            
-            
-        </div></div>
-        
-        
-        <p class="no-margin text-center"> Copyright 2025 BBC. All rights reserved. The BBC is not responsible for the content of external sites. Read
+                </a>
+
+
+            </div>
+        </div>
+
+
+        <p class="no-margin text-center"> Copyright 2025 BBC. All rights reserved. The BBC is not responsible for the
+            content of external sites. Read
             about our approach to external linking.
         </p>
-        <p class="no-margin text-center" id="foother-text"> The website was inspired by BBC. All data and information originates from <a href="https://www.bbc.com/">British Broadcasting Corporation</a>.
+        <p class="no-margin text-center" id="foother-text"> The website was inspired by BBC. All data and information
+            originates from <a href="https://www.bbc.com/">British Broadcasting Corporation</a>.
         </p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
